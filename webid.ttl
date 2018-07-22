@@ -1,0 +1,20 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<> a foaf:PersonalProfileDocument ;
+   foaf:maker <#this> ;
+   foaf:primaryTopic <#this> .
+
+<#this> a foaf:Person ;
+   foaf:name "Christopher Hanna Johnson";
+   rdfs:label "Christopher Hanna Johnson"@en ;
+   foaf:img <https://christopher-johnson.github.io/images/christopher-hanna-johnson.jpg>;
+   foaf:thumbnail <https://christopher-johnson.github.io/images/christopher-johnson.png>;
+   cert:key [
+       a cert:RSAPublicKey;
+       rdfs:label "generated 22 July 2018";
+       cert:modulus "C330C616B3A23C2BE7A95609B3084BC6ED0BD8604705319F20C600F871CF5C8087B5C29DE18FDC35CD44AE2101A0C64554F6DC017A72F7F3184984B4E85CED66333272D915B77BB189589C646DFC8E995DFA95069DAE319C5A3DF45ADDAA9FB29774BDEF4953938AF17A70F8AF191AD58F9237054CE69117AEC6E10A78EEE01335C85BB75A4A506D4D2D6F9BDDC47B00EF905F3C7237A000BA6BC8BE85081791D2932EE344B8AA600EDE8D055EFCD712E18BA495F0189CC90C42FE1AE91BDBE9BA38EBAD4A4FF837D37F59917A7C8E182300A322C4DE0BB3A0A5BC2A5EAF0FE9C08B1BFEDD7771792A1A99ADFC268EC7C25BD0E3464EC44CAA820C97160DBA77"^^xsd:hexBinary;
+       cert:exponent "65537"^^xsd:integer;
+      ] .
