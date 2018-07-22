@@ -51,7 +51,7 @@ highlight:
 index_generator:
   path: ''
   per_page: 10
-  order_by: -date
+  order_by: date
   
 # Category & Tag
 default_category: uncategorized
@@ -79,3 +79,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+google_analytics: UA-122653860-1
