@@ -10,8 +10,8 @@
 <#this> a foaf:Person ;
    foaf:name "Christopher Hanna Johnson";
    rdfs:label "Christopher Hanna Johnson"@en ;
-   foaf:img <https://christopher-johnson.github.io/images/christopher-hanna-johnson.jpg>;
-   foaf:thumbnail <https://christopher-johnson.github.io/images/christopher-johnson.png>;
+   foaf:img <https://christopher-h-johnson.github.io/images/christopher-hanna-johnson.jpg>;
+   foaf:thumbnail <https://christopher-h-johnson.github.io/images/christopher-johnson.png>;
    cert:key [
        a cert:RSAPublicKey;
        rdfs:label "generated 22 July 2018";
